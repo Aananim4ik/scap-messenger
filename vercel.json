@@ -1,0 +1,12 @@
+{
+    "functions": {
+      "api/socket.ts": {
+        "memory": 1024,
+        "maxDuration": 10
+      }
+    },
+    "rewrites": [
+      { "source": "/socket", "destination": "/api/socket" }
+    ]
+  }
+  
